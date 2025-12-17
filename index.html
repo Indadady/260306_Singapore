@@ -8,7 +8,7 @@
     
     <!-- Open Graph -->
     <meta property="og:title" content="[투어메이커] 싱가포르 3박5일 일정표">
-    <meta property="og:description" content="설레는 여행, 출발 전 필수 정보와 상세 일정을 확인해보세요.">
+    <meta property="og:description" content="대한항공/5성급/NO쇼핑/전일정관광 - 투어메이커가 제안하는 완벽한 싱가포르">
     <meta property="og:image" content="https://img.youtube.com/vi/kij3n1iikKc/maxresdefault.jpg">
 
     <!-- Tailwind CSS -->
@@ -27,7 +27,7 @@
         
         /* Hero Background */
         .hero-bg-sg { 
-            background: linear-gradient(rgba(15, 23, 42, 0.4), rgba(15, 23, 42, 0.8)), url('https://images.unsplash.com/photo-1565967511849-76a60a516170?q=80&w=2071&auto=format&fit=crop');
+            background: linear-gradient(rgba(15, 23, 42, 0.5), rgba(15, 23, 42, 0.7)), url('https://images.unsplash.com/photo-1565967511849-76a60a516170?q=80&w=2071&auto=format&fit=crop');
             background-size: cover;
             background-position: center;
         } 
@@ -88,23 +88,47 @@
     </header>
 
     <main>
-        <!-- 1. Hero Section -->
+        <!-- 1. Hero Section (Updated with 4 Key Points) -->
         <section id="home" class="hero-bg-sg min-h-[85vh] flex items-center justify-center text-center px-4 relative scroll-mt-0">
-            <div class="z-10 text-white max-w-4xl animate-fade-in-up">
-                <div class="inline-block border border-white/30 bg-white/10 backdrop-blur-md rounded-full px-4 py-1 mb-6">
-                    <span class="text-emerald-300 font-bold text-sm tracking-wide">NO 쇼핑 · NO 옵션 · 5성급 호텔</span>
-                </div>
+            <div class="z-10 text-white max-w-5xl w-full animate-fade-in-up flex flex-col items-center">
                 
-                <h1 class="text-4xl md:text-6xl font-[Nanum Myeongjo] font-bold leading-tight text-white drop-shadow-xl mb-6">
-                    싱가포르,<br>가장 완벽한 3박 5일
+                <h1 class="text-4xl md:text-6xl font-[Nanum Myeongjo] font-bold leading-tight text-white drop-shadow-xl mb-4">
+                    싱가포르,<br>품격있는 3박 5일
                 </h1>
 
-                <p class="text-base md:text-lg text-slate-200 mb-8 font-light tracking-wide bg-black/30 p-4 rounded-xl backdrop-blur-sm inline-block">
-                    고객님을 위한 프리미엄 프라이빗 투어<br>
-                    <span class="text-sm opacity-80 mt-2 block font-medium">2026.03.06 (금) - 03.10 (화) | 대한항공</span>
+                <p class="text-base md:text-lg text-slate-200 mb-8 font-light tracking-wide">
+                    2026.03.06 (금) - 03.10 (화) | KE643/644
                 </p>
 
-                <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+                <!-- 4대 핵심 포인트 강조 (NEW) -->
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 w-full max-w-4xl mb-10">
+                    <!-- Point 1: Korean Air -->
+                    <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl p-3 md:p-4 flex flex-col items-center justify-center hover:bg-white/20 transition-all">
+                        <i class="fa-solid fa-plane-up text-sky-300 text-2xl md:text-3xl mb-2"></i>
+                        <span class="text-xs md:text-sm font-bold text-white">국적기 탑승</span>
+                        <span class="text-[10px] text-slate-300">대한항공 직항</span>
+                    </div>
+                    <!-- Point 2: 5 Star Hotel -->
+                    <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl p-3 md:p-4 flex flex-col items-center justify-center hover:bg-white/20 transition-all">
+                        <i class="fa-solid fa-hotel text-yellow-300 text-2xl md:text-3xl mb-2"></i>
+                        <span class="text-xs md:text-sm font-bold text-white">전일정 특급호텔</span>
+                        <span class="text-[10px] text-slate-300">엄선된 5성급</span>
+                    </div>
+                    <!-- Point 3: No Shopping -->
+                    <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl p-3 md:p-4 flex flex-col items-center justify-center hover:bg-white/20 transition-all">
+                        <i class="fa-solid fa-bag-shopping text-red-300 text-2xl md:text-3xl mb-2"></i>
+                        <span class="text-xs md:text-sm font-bold text-white">NO 쇼핑</span>
+                        <span class="text-[10px] text-slate-300">오직 여행에만 집중</span>
+                    </div>
+                    <!-- Point 4: Full Tour -->
+                    <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-xl p-3 md:p-4 flex flex-col items-center justify-center hover:bg-white/20 transition-all">
+                        <i class="fa-solid fa-map-location-dot text-emerald-300 text-2xl md:text-3xl mb-2"></i>
+                        <span class="text-xs md:text-sm font-bold text-white">꽉 찬 관광</span>
+                        <span class="text-[10px] text-slate-300">전일정 가이드 투어</span>
+                    </div>
+                </div>
+
+                <div class="animate-bounce mt-4">
                     <i class="fa-solid fa-chevron-down text-2xl text-white/70"></i>
                 </div>
             </div>
@@ -440,11 +464,32 @@
 
     </main>
 
-    <footer class="bg-slate-900 text-slate-500 py-24 md:py-12 text-center text-sm">
-        <div class="flex justify-center mb-4">
-            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHfgIX70O5k6Anuo0UgALIdaG9jSga9auHu3uyz0uEirylGPAJnjN_qQbvEGMUvPqUQf_g9FMNUHRxlDcUBf4vZ3Mpy4TnA9WxbmzWYK11gt2zuy_Irl4wctNFjcjLyPo0GPXV792o_J7L9guRMuDfeC1gy7USwywjYbECZgzcsHybuGRRAXAnO1eNmP8/s320/logo.png" alt="Tourmaker Logo" class="h-10 w-auto opacity-70">
+    <!-- Footer (Partner Info Updated: White Box Added) -->
+    <footer class="bg-slate-900 text-slate-400 py-16 text-center text-sm border-t border-slate-800">
+        <div class="container mx-auto px-4">
+            
+            <!-- Partner Logos with White Background -->
+            <div class="inline-flex justify-center items-center gap-6 mb-8 bg-white rounded-xl py-4 px-8 shadow-lg">
+                <!-- Tourmaker -->
+                <img src="https://blogger.googleusercontent.com/img/a/AVvXsEitI-Z-hD82keOJ1AqHw-VTZjpw2U-O5UjtV9h3zblyG0wjsVfBWe9X9o0Q_Spctrt7krkd9qXO0xKTmGJLw4gyMZrRqpshKMFttnyx6OcC8-IGz3XLUZpGQOnRqVdol8jz5HuoDLqsEifnVRhcjUJHm13Sz8JrX9aPswMNUwZPvGtJEnQjhc2PiXlo-B8" alt="Tourmaker" class="h-8 md:h-10 w-auto">
+                <span class="text-xl text-slate-300 font-light">|</span>
+                <!-- Mode Tour -->
+                <img src="data:image/png;base64,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" alt="Modetour" class="h-8 md:h-10 w-auto">
+            </div>
+
+            <div class="max-w-2xl mx-auto space-y-2">
+                <p class="text-slate-300 font-medium">
+                    본 상품은 <span class="text-emerald-500 font-bold">모두투어</span>와 정식 제휴를 맺은 <span class="text-white font-bold">투어메이커</span>가<br class="md:hidden"> 판매, 예약, 결제 및 고객관리를 전담합니다.
+                </p>
+                <p class="text-xs text-slate-500 leading-relaxed">
+                    투어메이커는 모두투어의 우수한 여행 상품을 엄선하여 고객님께 제안드리며,<br class="hidden md:inline">
+                    여행의 시작부터 끝까지 투어메이커만의 세심한 1:1 케어 서비스를 제공합니다.
+                </p>
+                <p class="text-[10px] text-slate-600 mt-4">
+                    &copy; 2026 Tourmaker. All Rights Reserved.
+                </p>
+            </div>
         </div>
-        <p>&copy; 2026 Tourmaker. All Rights Reserved.</p>
     </footer>
 
     <script>
